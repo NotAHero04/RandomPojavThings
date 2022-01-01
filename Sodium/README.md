@@ -4,6 +4,6 @@ But, as the game requires fairly new devices (Java 16-17 needs at least Windows 
 
 This also applies to PojavLauncher, as the best option for compatibility (Zink/VirGL) is still highly experimental and may not work quite well, and the best option for performance (gl4es) has so little capabilities.
 
-I made this patch for demonstrational purposes, since with gl4es, the game will just crashes when it starts rendering the world. To try out this thing, make sure you have a low render distance and are at a reasonably high altitude (around Y=200) so that the game will not render any blocks.
+I made this patch for demonstrational purposes, since with gl4es, the game will just crash when it starts rendering the world. To try out this thing, make sure you have a low render distance and are at a reasonably high altitude (around Y=200) so that the game will not render any blocks.
 
-With that said, you can download the mod and try! (For Fabric 1.18/1.18.1)
+With that said, you can download the mod now! (For Fabric 1.18/1.18.1)
