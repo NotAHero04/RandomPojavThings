@@ -7,3 +7,5 @@ This also applies to PojavLauncher, as the best option for compatibility (Zink/V
 I made this patch for demonstrational purposes, since with gl4es, the game will just crash when it starts rendering the world. To try out this thing, make sure you have a low render distance and are at a reasonably high altitude (around Y=200) so that the game will not render any blocks.
 
 With that said, you can download the mod now! (For Fabric 1.18/1.18.1)
+
+Link to the official source: [here](https://github.com/jellysquid3/sodium-fabric)
