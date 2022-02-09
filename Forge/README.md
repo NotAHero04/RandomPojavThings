@@ -1,5 +1,7 @@
 Hi there! If you are here, you are probably facing issues launching Minecraft Forge versions in the range of 1.3.2-1.7.2.
 
+### Backstory
+
 I [raised a question about support on these versions](https://github.com/PojavLauncherTeam/PojavLauncher/issues/2468) to the development team two months ago (at the time of this writing, February 9), but neither they nor I had an idea to fix it, until...
 
 I looked back at the error log from Forge 1.7.2, and found something interesting: (This is actually taken from an error log with Forge 1.6.4, but they should be identical)
@@ -73,7 +75,13 @@ With that in mind, I tried to swap ASM libraries between 1.7.2 and the nearest w
 
 I talked to [@Aerolome](https://github.com/Aerolome) about that discovery, and he quickly brought it to other buggy versions (1.3.2, 1.4.2, 1.5.1, 1.5.2, 1.6.2, 1.6.4).
 
-So I'm here to share you all the works from us. The patches modify the JSON data of corresponding Forge instances to always download ASM library version 5.2, which is also tested and verified to be working.
+### How the patches work
+
+The patches modify the JSON data of corresponding Forge instances to always download ASM library version 5.2, which is also tested and verified to be working.
+
+### How to use the patch
+
+Download and replace the JSON in the version file directory corresponding to your desired Minecraft version. Forge is inconsistent about naming scheme, so if the JSON file name doesn't match, you will need to rename it.
 
 For Forge 1.7.2, you may also want to look at [this nice article from Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2206446-forge-1-6-4-1-7-2-java-8-compatibility-patch).
 
