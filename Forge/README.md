@@ -1,6 +1,6 @@
 Hi there! If you are here, you are probably facing issues launching Minecraft Forge versions in the range of 1.3.2-1.7.2.
 
-I raised this question to the development team two months ago (at the time of this writing, February 9), but neither they nor I had an idea to fix it, until...
+I [raised a question about support on these versions](https://github.com/PojavLauncherTeam/PojavLauncher/issues/2468) to the development team two months ago (at the time of this writing, February 9), but neither they nor I had an idea to fix it, until...
 
 I looked back at the error log from Forge 1.7.2, and found something interesting: (This is actually taken from an error log with Forge 1.6.4, but they should be identical)
 > 2021-12-30 15:52:06 [SEVERE] [ForgeModLoader] Unable to launch
