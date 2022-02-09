@@ -11,7 +11,8 @@
 		},
 		{
 			"serverreq": true,
-			"name": "org.ow2.asm:asm-all:4.1"
+			"name": "org.ow2.asm:asm-all:5.2",
+			"url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
 		},
 		{
 			"comment": "Important for Forge, we add this",
