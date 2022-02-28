@@ -10,7 +10,7 @@ Here's the instruction for it to work. If you come to this place in 2030 for exa
 
 This will only work in Action builds!
 
-1. Download [the JNA package](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar) and [the JNA platform package](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar.)
+1. Download [the JNA package](https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar) and [the JNA platform package](https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar).
 
 2. Download the native library: [64-bit](https://github.com/java-native-access/jna/blob/master/lib/native/android-aarch64.jar), [32-bit](https://github.com/java-native-access/jna/blob/master/lib/native/android-arm.jar), or [32-bit ARMv7](ttps://github.com/java-native-access/jna/blob/master/lib/native/android-armv7.jar) I still don't know which 32-bit library actually works, give both of them a try.
 
