@@ -38,4 +38,5 @@ Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. D
 
 Once you have done these steps, voila! Your game should be able to launch!
 
+Although this fix targets Discord RPC feature, it's very likely to not work with most of the other Discord RPC mods. For those mods, go to [COMING SOON!]
 
