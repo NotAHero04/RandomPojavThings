@@ -46,3 +46,21 @@ Once you have done these steps, voila! Your game should be able to launch!
 
 Although this fix targets Discord RPC feature, it's very likely to not work with most of the other Discord RPC mods. For those mods, go to [COMING SOON!]
 
+### That doesn't work. What could be wrong?
+
+- Android 6.0+ is the minimum requirement theoretically. If you are facing issues with Android 6.0, write a bug report with the `latestlog.txt` file attached.
+- If the above requirement is passed, but the game still crashes after following, find the crash report written in `latestlog.txt`
+
+#### Cannot obtain static method `<something>` from class `com.sun.jna.Native`
+
+It indicates that no support for your device's architecture was found. Check if you have done step 7 correctly, as newer JNAs support more architectures.
+
+#### (Android 7.0+ only) `<something>`: `dlopen` failed: `<something>` needed or `dlopen`ed by `<something>` is not accessible for the class loader `classloader-namespace`
+
+This is the intentional behavior of Android 7.0+ that prevents executing native binaries on a "writable" app directory, which indicates that JNA didn't successfully find the executable on the desired directories, and fell back to loading its own executable.
+
+To fix this, try doing step 5 and 8 again.
+
+#### Crash on launch
+
+Probably you should check your JVM options.
