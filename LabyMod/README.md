@@ -30,6 +30,8 @@ This will only work in Action builds!
 
 6. For the remaining packages (`jna` and `jna-platform`), create a folder named `5.10.0` in each of these directories: `libraries/net/java/dev/jna/jna` and `libraries/net/java/dev/jna/jna-platform` (find it in your Minecraft directory). Then move the `jna` package to the former, and `jna-platform` to the latter directory.
 
+[Visual example here.](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-141508~2.mp4)
+
 7. Download the patched JSON file for LabyMod 1.8.9 in this repository and replace the original ones in the corresponding version directory.
 
 8. Set these JVM arguments: (optional?)
