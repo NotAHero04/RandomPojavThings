@@ -20,6 +20,8 @@ This will only work in Action builds!
 
 5. Most of the APK editors will follow this procedure:
 
+[](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-135246~3.mp4)
+
 5.1. Tap "Select APK from app", choose "PojavLauncher (Minecraft: Java Edition for Android)" with the `net.kdt.pojavlaunch.debug` string beneath. Choose "Full edit", then "All files".
 
 5.2. In the "Files" tab, navigate to `lib` > `arm64-v8a` (64-bit devices)/`armeabi-v7a` (32-bit devices). Delete the existing `libjnidispatch.so`, then tap "Add file", find the extracted `libjnidispatch.so` and choose to add it.
@@ -34,7 +36,9 @@ This will only work in Action builds!
 ```
 -Djna.boot.library.path=${POJAV_NATIVEDIR} -Djna.nosys=true
 ```
-Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. Don't actually use `${POJAV_NATIVEDIR}` as the parameter, it may not work!
+Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. Don't actually use `${POJAV_NATIVEDIR}` as the parameter, it will not work!
+
+[](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-135851~2.mp4)
 
 Once you have done these steps, voila! Your game should be able to launch!
 
