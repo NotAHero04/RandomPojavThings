@@ -26,11 +26,11 @@ This will only work in Action builds!
 
 5.3. Tap "Build" to rebuild the APK. Once it's complete, install the APK.
 
-[Visual example here.](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-135246~3.mp4)
+[Visual example here.](https://youtube.com/shorts/Mmp9_Pq1AtM?feature=share)
 
 6. For the remaining packages (`jna` and `jna-platform`), create a folder named `5.10.0` in each of these directories: `libraries/net/java/dev/jna/jna` and `libraries/net/java/dev/jna/jna-platform` (find it in your Minecraft directory). Then move the `jna` package to the former, and `jna-platform` to the latter directory.
 
-[Visual example here.](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-141508~2.mp4)
+[Visual example here.](https://youtube.com/shorts/QrHbk1CI3jY?feature=share)
 
 7. Download the patched JSON file for LabyMod 1.8.9 in this repository and replace the original ones in the corresponding version directory.
 
@@ -40,7 +40,7 @@ This will only work in Action builds!
 ```
 Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. Don't actually use `${POJAV_NATIVEDIR}` as the parameter, it will not work!
 
-[Visual example here.](https://github.com/NotAHero04/RandomPojavThings/raw/main/LabyMod/resources/screen-20220304-135851~2.mp4)
+[Visual example here.](https://youtube.com/shorts/0EcYtft7DGY?feature=share)
 
 Once you have done these steps, voila! Your game should be able to launch!
 
