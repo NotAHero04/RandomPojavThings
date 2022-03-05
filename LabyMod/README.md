@@ -22,7 +22,7 @@ This will only work in Action builds!
 
 5.1. Tap "Select APK from app", choose "PojavLauncher (Minecraft: Java Edition for Android)" with the `net.kdt.pojavlaunch.debug` string beneath. Choose "Full edit", then "All files".
 
-5.2. In the "Files" tab, navigate to `lib` > `arm64-v8a` (64-bit ARM devices)/`armeabi-v7a` (32-bit ARM devices)/`x86`/`x86-64`. Delete the existing `libjnidispatch.so`, then tap "Add file", find the extracted `libjnidispatch.so` and choose to add it.
+5.2. In the "Files" tab, navigate to `lib` > `arm64-v8a` (64-bit ARM devices)/`armeabi-v7a` (32-bit ARM devices)/`x86`/`x86-64` (again, depends on your device's architecture). Delete the existing `libjnidispatch.so`, then tap "Add file", find the extracted `libjnidispatch.so` and choose to add it.
 
 5.3. Tap "Build" to rebuild the APK. Once it's complete, install the APK.
 
