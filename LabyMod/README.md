@@ -36,9 +36,9 @@ This will only work in Action builds!
 
 8. Set these JVM arguments: (optional?)
 ```
--Djna.boot.library.path=$POJAV_NATIVEDIR -Djna.nosys=true
+-Djna.boot.library.path=${POJAV_NATIVEDIR} -Djna.nosys=true
 ```
-~~Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. Don't actually use `${POJAV_NATIVEDIR}` as the parameter, it will not work!~~
+Kindly check one of your `latestlog.txt`s to see what `${POJAV_NATIVEDIR}` is. Don't actually use `${POJAV_NATIVEDIR}` as the parameter, it will not work!
 
 [Visual example here.](https://youtube.com/shorts/0EcYtft7DGY?feature=share)
 
