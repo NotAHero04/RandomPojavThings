@@ -72,7 +72,7 @@ The bytecode will look like this:
 
 The byte at position 3012 turns out to be the "length" of the following string (`1c` means 28 in decimal). The sequence `01 00` seems to act like a signature for something that I don't know, so I'll keep it.
 
-After modifying that piece of bytecode, it became
+After modifying that piece of bytecode, it should become
 ```
 3010 | 01 00 0f 6a 61 76 61 2f | . . . j a v a /
 3018 | 61 77 74 2f 43 61 6e 76 | a w t / C a n v
