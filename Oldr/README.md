@@ -83,7 +83,7 @@ Don't forget to delete `META-INF` in the game archive since we are applying **mo
 
 Give it a test run, and...
 
-
+![](https://media.discordapp.net/attachments/907981794303934544/963450859566551040/Screenshot_20220412-214806.png)
 
 It definitely works! You can do these steps to modify any client that's affected by this issue' from 12w04a to 1.2.4 (other ones are untested).
 
