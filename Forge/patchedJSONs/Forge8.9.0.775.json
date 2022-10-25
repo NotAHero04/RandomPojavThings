@@ -40,7 +40,7 @@
 		{
 			"name": "org.ow2.asm:asm-all:5.2",
 			"serverreq": true,
-			"url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+			"url": "https://repo1.maven.org/maven2/"
 		},
 		{
 			"name": "net.sf.jopt-simple:jopt-simple:4.5",
