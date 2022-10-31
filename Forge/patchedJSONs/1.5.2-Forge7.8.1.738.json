@@ -31,7 +31,7 @@
 		},
 		{
 			"name": "org.ow2.asm:asm-all:5.2",
-			"url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar",
+			"url": "https://repo1.maven.org/maven2/",
 			"clientreq": true,
 			"serverreq": true
 		},
